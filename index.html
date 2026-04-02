@@ -6,6 +6,12 @@
     <title>Karan Rathore | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
 </head>
 <body>
 
@@ -17,6 +23,7 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
         </div>
+        <i class="fas fa-bars hamburger" onclick="toggleMenu()"></i>
         <a href="https://wa.me/+91-7976120775?text=Hi%20Karan%2C%20interested%20in%20your%20services!" class="talk-btn" target="_blank">Let's Talk</a>
     </nav>
 
@@ -31,7 +38,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="karan.png" alt="Your Profile">
+            <img src="Karan.png" alt="Your Profile">
         </div>
     </section>
 
