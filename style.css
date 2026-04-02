@@ -55,10 +55,17 @@ nav {
     color: #fff; /* text pure white */
 }
 
-
+@media (max-width: 768px) {
+    .hero {
+        /* Photo ko text ke upar ya niche lane ke liye column layout */
+        flex-direction: column-reverse; 
+        text-align: center;
+        padding: 50px 5%;
+        gap: 30px;
+    }
 .hero-image img {
-    width: 450px; 
-    height: 450px; 
+    width: 2800px; 
+    height: 280px; 
    border-radius: 50%; 
     filter: grayscale(100%);
     transition: filter 0.3s ease;
@@ -71,7 +78,7 @@ nav {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     margin: 10px 0;
 }
 
